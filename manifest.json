@@ -1,0 +1,10 @@
+{
+  "content_scripts": [ {
+    "js": [ "travis-cat.js" ],
+    "matches": [ "https://travis-ci.org/*", "https://magnum.travis-ci.com/*" ]
+  }],
+  "description": "Makes your day better when your build fails.",
+  "manifest_version": 2,
+  "name": "Travis cat",
+  "version": "0.1"
+}
