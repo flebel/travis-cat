@@ -13,7 +13,7 @@ var observer = new MutationObserver(function(mutations, observer) {
     if (status_errored != undefined || status_failed != undefined) {
       imageTag = document.createElement("img");
       imageTag.setAttribute("id", "comforting-cat");
-      imageTag.setAttribute("src", "http://thecatapi.com/api/images/get?format=src&type=gif&size=med");
+      imageTag.setAttribute("src", "http://thecatapi.com/api/images/get?format=src&type=gif&size=small");
       imageTag.setAttribute("style", "display:block; margin:10px auto -25px");
       logContainer.parentNode.insertBefore(imageTag, logContainer);
     }
